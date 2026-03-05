@@ -1,0 +1,21 @@
+{
+  "name": "sistema-notas",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de notas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.4",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "keywords": ["mvc", "crud", "educacao"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
