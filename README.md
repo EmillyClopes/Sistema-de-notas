@@ -1,6 +1,3 @@
-Perfeito! Vou adicionar apenas a seção do Docker mantendo todo o seu README original intacto:
-
-```markdown
 # Sistema de Gestão de Notas Escolares
 
 ## 1. Objetivo do Projeto
