@@ -42,10 +42,10 @@ Sistema web para gerenciamento de notas de alunos. O sistema permite realizar op
 
 ```bash
 # Clone o projeto
-git clone https://github.com/EmillyClopes/sistema-notas.git
+git clone https://github.com/EmillyClopes/Sistema-de-notas.git
 
 # Entre na pasta
-cd sistema-notas
+cd Sistema-de-notas
 ```
 
 #### Opção 2: Download direto
