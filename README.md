@@ -1,4 +1,3 @@
-```markdown
 # Sistema de Gestão de Notas Escolares
 
 ## 1. Objetivo do Projeto
