@@ -1,3 +1,6 @@
+Perfeito! Vou adicionar apenas a seção do Docker mantendo todo o seu README original intacto:
+
+```markdown
 # Sistema de Gestão de Notas Escolares
 
 ## 1. Objetivo do Projeto
@@ -33,6 +36,7 @@ Sistema web para gerenciamento de notas de alunos. O sistema permite realizar op
 
 - **Node.js** (versão 12 ou superior) - [Baixar aqui](https://nodejs.org)
 - **Git** (opcional, para clonar) - [Baixar aqui](https://git-scm.com)
+- **Docker** (opcional, para executar via container) - [Baixar aqui](https://www.docker.com/products/docker-desktop)
 - Navegador web moderno (Chrome, Firefox, Edge)
 
 ### Passo a passo
@@ -77,6 +81,30 @@ O servidor iniciará e você verá a mensagem:
 ```
 Servidor rodando em http://localhost:3000
 ```
+
+#### Executando com Docker (alternativa)
+
+Se preferir utilizar Docker, siga estes passos:
+
+**Construir a imagem localmente:**
+```bash
+# Na pasta do projeto, execute:
+docker build -t sistema-notas .
+```
+
+**Executar o container:**
+```bash
+docker run -p 3000:3000 sistema-notas
+```
+
+**Ou baixar direto do Docker Hub:**
+```bash
+docker pull emillyclopes/sistema-notas:latest
+docker run -p 3000:3000 emillyclopes/sistema-notas:latest
+```
+
+Acesse: `http://localhost:3000`
+
 ### Como usar:
 
 | Ação | Como fazer |
@@ -105,5 +133,26 @@ sistema-notas/
 ├──    app.js                # Arquivo principal, configuração do servidor
 ├──    package.json           # Dependências e scripts do projeto
 ├──    package-lock.json      # Versões exatas das dependências
+├──    Dockerfile             # Configuração para container Docker
+├──    .dockerignore          # Arquivos ignorados pelo Docker
 └──    README.md              # Documentação do projeto
+```
+
+## Comandos Úteis do Docker
+
+```bash
+# Ver containers em execução
+docker ps
+
+# Parar o container
+docker stop sistema-notas
+
+# Remover o container
+docker rm sistema-notas
+
+# Ver imagens disponíveis
+docker images
+
+# Remover imagem
+docker rmi sistema-notas
 ```
