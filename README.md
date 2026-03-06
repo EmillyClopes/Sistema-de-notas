@@ -46,6 +46,9 @@ git clone https://github.com/EmillyClopes/Sistema-de-notas.git
 
 # Entre na pasta
 cd Sistema-de-notas
+
+# Abra o projeto
+code .
 ```
 
 #### Opção 2: Download direto
